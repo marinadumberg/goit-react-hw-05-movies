@@ -1,0 +1,28 @@
+.NavLink {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 20px;
+  line-height: 18px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+.activeLink {
+  background: #2f8b57;
+  color: #ffffff;
+  border-color: #ffffff;
+  text-decoration: none;
+  text-decoration: underline;
+}
+.NavLink:hover {
+  background: #52c985;
+  color: #ffffff;
+  border-color: #ffffff;
+}

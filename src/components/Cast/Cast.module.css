@@ -1,0 +1,44 @@
+.actorsContainer {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+.actorList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-gap: 2rem;
+  padding: 20px;
+  list-style: none;
+}
+.listItem {
+  border-radius: 20px;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgb(0 0 0 / 40%);
+  overflow: hidden;
+  transition: transform 0.25s ease-in-out;
+  background-color: rgb(40, 138, 141);
+}
+.actorsPhoto {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.4s ease-out;
+}
+.actorsName {
+  margin-bottom: 20px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #ffffff;
+}
+.actorsCharacter {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.17;
+  color: #e4bbbb;
+}

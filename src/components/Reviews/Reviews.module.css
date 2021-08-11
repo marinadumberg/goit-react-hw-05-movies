@@ -1,0 +1,30 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+.list {
+  list-style: none;
+}
+.listItem {
+  background-color: #2db668;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+}
+.author {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: rgb(241, 241, 181);
+  font-size: 24px;
+  line-height: 1.42;
+  font-weight: 500;
+}
+.description {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  color: #ffffff;
+}
