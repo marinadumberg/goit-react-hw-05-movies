@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchReviewById } from '../../services/api';
+import { fetchReviewById } from '../../services/Api';
 import s from './Reviews.module.css';
 
 export default function Reviews() {

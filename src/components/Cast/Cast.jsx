@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchCastById } from '../../services/api';
+import {fetchCastById} from '../../services/Api';
 import s from './Cast.module.css';
 
 export default function Cast() {
@@ -8,7 +8,7 @@ export default function Cast() {
   const [actors, setActors] = useState([]);
   useEffect(() => {
     fetchCastById(movieId).then(cast => setActors(cast));
-  }, [movieId]);
+  },[movieId]);
 
   return (
     <div className={s.actorsContainer}>

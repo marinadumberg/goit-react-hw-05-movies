@@ -8,7 +8,7 @@ import {
   useHistory,
   useParams,
 } from 'react-router-dom';
-import { fetchMovieById } from '../../services/api';
+import { fetchMovieById } from '../../services/Api';
 import LoaderSpiner from '../../components/LoaderSpiner/LoaderSpiner';
 import s from './MovieDetailsPage.module.css';
 import MovieDetails from '../../components/MovieDetails/MovieDetails';

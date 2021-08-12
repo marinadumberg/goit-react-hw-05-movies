@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { fetchTrendingMovies } from '../../services/api';
+import { fetchTrendingMovies } from '../../services/Api';
 import { useHistory, useRouteMatch } from 'react-router-dom';
-import MoviesList from '../../components/MoviesList/MoviesList';
+import MoviesList from '../../components/MovieList/MovieList';
 import LoaderSpiner from '../../components/LoaderSpiner/LoaderSpiner';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
