@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import {fetchCastById} from '../../services/Api';
+import { fetchCastById } from "../../services/Api";
 import s from './Cast.module.css';
 
 export default function Cast() {

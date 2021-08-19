@@ -2,27 +2,27 @@
   display: inline-block;
   text-decoration: none;
   padding: 12px;
-  border: 1px solid #000000;
+  border: 1px solid rgb(127, 221, 250);
   border-radius: 5px;
   background: #ffffff;
   font-weight: 500;
   font-size: 20px;
   margin-left: 20px;
   line-height: 18px;
-  color: #000000;
+  color: rgb(127, 221, 250);
   text-decoration: none;
   font-weight: 500;
   font-size: 20px;
 }
 .activeLink {
-  background: #2f8b57;
+  background: rgb(127, 221, 250);
   color: #ffffff;
   border-color: #ffffff;
   text-decoration: none;
   text-decoration: underline;
 }
 .NavLink:hover {
-  background: #52c985;
+  background: rgb(127, 221, 250);
   color: #ffffff;
   border-color: #ffffff;
 }

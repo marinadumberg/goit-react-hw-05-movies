@@ -6,21 +6,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #000000;
+  border: 1px solid #7fddfa;
   padding: 10px;
   margin: 10px;
-  background: #ffffff;
+  background: rgb(127, 221, 250);
   border-radius: 10px;
   font-weight: 600;
   font-size: 24px;
   line-height: 18px;
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 .btn:hover {
-  background: #2f8b57;
-  color: #ffffff;
-  border-color: #ffffff;
+  background: #ffffff;
+  color: rgb(127, 221, 250);
+  border-color: rgb(127, 221, 250);
 }
 
 .movieContainer {
@@ -40,13 +40,13 @@
   text-align: center;
   font-size: 30px;
   text-transform: uppercase;
-  color: #2f8b57;
+  color: rgb(127, 221, 250);
   text-shadow: 0 0 3px #f1ecec, 0 0 5px #ffffff;
 }
 .movieDescrTitle {
   margin-left: 10px;
   margin-bottom: 20px;
-  color: rgb(241, 241, 181);
+  color: rgb(127, 221, 250);
   font-size: 24px;
   line-height: 1.42;
   font-weight: 500;
@@ -56,7 +56,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
-  color: #ffffff;
+  color: #000000;
 }
 .movieScore {
   margin: 3px;
@@ -64,18 +64,18 @@
   display: inline-block;
   border: 2px solid #ffffff;
   border-radius: 7px;
-  color: #ffffff;
-  background-color: seagreen;
+  color: #000000;
+  background-color: rgb(246, 247, 163);
 }
 .text {
   font-size: 20px;
   line-height: 1.42;
-  color: rgb(255, 255, 255);
+  color: #000000;
   background-color: var(--color-accent);
 }
 .genreItem {
   list-style: inside;
-  color: #ffffff;
+  color: #000000;
 }
 
 .movieImage {

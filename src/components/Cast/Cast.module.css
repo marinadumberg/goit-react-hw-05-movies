@@ -15,7 +15,7 @@
   box-shadow: 0.3rem 0.4rem 0.4rem rgb(0 0 0 / 40%);
   overflow: hidden;
   transition: transform 0.25s ease-in-out;
-  background-color: rgb(40, 138, 141);
+  background-color: rgb(127, 221, 250);
 }
 .actorsPhoto {
   display: block;
@@ -26,7 +26,7 @@
 }
 .actorsName {
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: 700;
   text-align: center;
   font-size: 18px;
   line-height: 1.17;
@@ -40,5 +40,5 @@
   text-align: center;
   font-size: 16px;
   line-height: 1.17;
-  color: #e4bbbb;
+  color: #ffffff;
 }

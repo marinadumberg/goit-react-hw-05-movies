@@ -1,8 +1,8 @@
 .movieDescrTitle {
   margin-left: 10px;
   margin-bottom: 20px;
-  color: rgb(241, 241, 181);
-  font-size: 24px;
+  color: rgb(127, 221, 250);
+  font-size: 40px;
   line-height: 1.42;
   font-weight: 500;
 }
@@ -12,7 +12,7 @@
   margin-bottom: 20px;
 }
 .navLink {
-  border: 1px solid #000000;
+  border: 1px solid rgb(127, 221, 250);
   padding: 5px;
   margin-left: 10px;
   background: #ffffff;
@@ -20,16 +20,16 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 18px;
-  color: #000000;
+  color: rgb(127, 221, 250);
   text-decoration: none;
 }
 .navLink:hover {
-  background: #2f8b57;
+  background: rgb(127, 221, 250);
   color: #ffffff;
-  border-color: #ffffff;
+  border-color: rgb(127, 221, 250);
 }
 .navLinkactive {
-  background: #2f8b57;
+  background: rgb(127, 221, 250);
   color: #ffffff;
   border-color: #ffffff;
   text-decoration: none;

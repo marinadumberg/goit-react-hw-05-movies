@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import SearchBar from '../../components/SearchBar/SearchBar';
 import { useHistory, useLocation } from 'react-router-dom';
 import { fetchSearcingMovies } from '../../services/Api';
-import MoviesList from '../../components/MoviesList/MoviesList';
+import MoviesList from '../../components/MovieList/MovieList';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import PropTypes from 'prop-types';
